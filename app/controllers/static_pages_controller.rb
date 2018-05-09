@@ -13,6 +13,7 @@ class StaticPagesController < ApplicationController
   end
 
   def toy
+    @title = "Toy"
     @domain = Rails.env
   end
 end
