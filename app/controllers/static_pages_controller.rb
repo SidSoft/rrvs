@@ -12,6 +12,10 @@ class StaticPagesController < ApplicationController
     @title = "About"
   end
 
+  def contact
+    @title = "Contact"
+  end
+
   def toy
     @title = "Toy"
     @domain = Rails.env
